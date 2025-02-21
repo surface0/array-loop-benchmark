@@ -1,0 +1,14 @@
+{
+    "name": "C# .NET 6",
+    "image": "mcr.microsoft.com/devcontainers/dotnet:6.0",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "oderwat.indent-rainbow",
+                "ms-dotnettools.csdevkit",
+                "github.vscode-github-actions"
+            ]
+        }
+    },
+    "postCreateCommand": "dotnet restore"
+}
